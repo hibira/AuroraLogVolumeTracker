@@ -19,7 +19,6 @@
 ローカルで実行する場合は boto3 をインストールする必要があります。
 ```
 pip3 install boto3
-python3 example.py
 ```
 
 また、EventBridge Scheduler で定期的に(例えば5分)で実行することをお勧めします。
