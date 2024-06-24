@@ -6,7 +6,7 @@ Author hibira
 このコードはサンプルであり、動作を保証するものではありません。ご利用に際しては必ず検証を行なってください。  
 
 このコードを実行するには以下の環境変数が必要です。  
-- AURORA_CLUSTER: 監査対象のクラスタを指定します。    
+- AURORA_CLUSTER: 監査対象のクラスタIDを指定します。    
 - THRESHOLD_TOTAL_LOG_FILE_SIZE: 例えば、500GB の 15% の場合は 「75」   
 - METRICS_NAMESPACE: カスタムメトリクスの名前空間を指定してください (例) CUSTOM/RDS    
 - TOTAL_LOG_FILE_SIZE_METRICS_NAME: ログファイルの合計サイズに関するメトリクス名 (例) TotalLogFileSize    
