@@ -1,4 +1,3 @@
-# Author hibira
 # ローカルで実行する場合のサンプルコードです。
 
 import os
