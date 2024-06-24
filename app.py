@@ -101,7 +101,8 @@ def get_logfile_insight(rds_client, instance, threshold_total_log_file_size):
                 print('WARN: There are log files that have exceeded the rotation period !! - ' + file_name)
             count = count + 1
 
-        if len(response['DescribeDBLogFiles']) < 1000:
+        # 1000ファイルを超える場合はMarkerを利用し、続きを取得する
+        if not response.__contains__('Marker'):
             break
         marker = response['Marker']
         # print('Marker: ' + marker)
