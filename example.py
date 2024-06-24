@@ -1,3 +1,6 @@
+# Author thibira@amazon.co.jp
+# ローカルで実行する場合のサンプルコードです。
+
 import os
 import app
 
